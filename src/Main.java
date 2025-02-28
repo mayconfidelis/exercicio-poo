@@ -1,5 +1,13 @@
 public class Main {
 
+    public static boolean ehPar(int numero){
+        return numero % 2 == 0;
+    }
+    {
+        boolean resultado = ehPar(5);
+        System.out.println("O número é par? " + resultado);
+
+
     public static int restoDivisao(int a, int b) {
         return a % b;
     }
@@ -30,6 +38,7 @@ public class Main {
 
         int resultado = subtracao (1, 2);
         System.out.println("O resultado da subtração é: " + resultado);
+
 
 
     }
