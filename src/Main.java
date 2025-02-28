@@ -1,5 +1,10 @@
 public class Main {
+    public static int multiplicacao(int a, int b) {
+        return a * b;
+
+    }
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        int resultado = multiplicacao(3, 4);
+        System.out.println("Resultado da multiplicação: " + resultado);
     }
 }
