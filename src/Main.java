@@ -1,5 +1,13 @@
 public class Main {
 
+    public static int restoDivisao(int a, int b) {
+        return a % b;
+    }
+     {
+        int resultado = restoDivisao(4, 5);
+        System.out.println("Resto da divisão: " + resultado);
+
+
     public static double divisao (int a, int b) {
         if (b == 0) {
             throw new ArithmeticException("Divisão por zero não é permitida!");
@@ -22,6 +30,7 @@ public class Main {
 
         int resultado = subtracao (1, 2);
         System.out.println("O resultado da subtração é: " + resultado);
+
 
     }
 }
